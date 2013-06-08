@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 def error_logger():
-  Log=open('error_log')
+  	Log=open('error_log')
 	error_log=[]
 	for i in Log:
 			if i.find("[error]") != -1:
@@ -87,7 +87,6 @@ def log_printer(log):
 def log_printer2(log):
 	for i in log:
 		print (i)
-
 
 def optionSelecter():
 	print ("Choose the option : ")
